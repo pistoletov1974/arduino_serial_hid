@@ -77,9 +77,9 @@ void loop() {
 
     if (s.indexOf("usb_off")!=-1)
        {
-         digitalWrite(2,LOW);
-         delay(1);
          digitalWrite(3,LOW);
+         delay(1);
+         digitalWrite(2,LOW);
         s="";
         }
     
